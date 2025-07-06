@@ -1,6 +1,6 @@
-# Bootcamp DevJr Módulo03: Projeto Menu
+# Bootcamp DevJr Módulo02, capitulo 2:  
 
-# Recursos do repositório (Resolvido):
+# Recursos do repositório (Resolvido): Cardapio com bootstrap
 
 ### Imagens de referência do projeto
 ### Imagens do projeto (assets)
@@ -9,4 +9,4 @@
 ## Modelo do projeto! 
 ![alt text](Modulo3-Projeto-Menu-2.jpeg)
 
-## Acompanhe a [minha solução](https://willian-uiu.github.io/Cardapio/cardapio/)
+## Acompanhe a [minha solução ainda não finalizada]()
