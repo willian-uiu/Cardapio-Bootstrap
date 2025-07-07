@@ -8,11 +8,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 
 </head>
-<body>
-    <div class="container text-center">
+<body class="bg-success">
+    <div class="container text-center bg-light">
         <div class="row justify-content-center">
             <div>
-                <img src="../assets/home.jpg" alt="">
+                <img src="../assets/home.jpg" alt="" class="">
             </div>
 
             <h1>Menu - Faça A Sua Escolha</h1>
@@ -22,45 +22,54 @@
                 <p>Todos os pratos acompanham arroz, feijão e a sobremesa do dia.</p>
 
                 <div>
-                    <div>
-                        <img src="../assets/bife.jpg" alt="" />
-                        <p>Bife com batata</p>
-                        <p>R$ 30,00</p>
-
-                        <!-- Quantity JS-->
-                        <div>
-                            <input type="button" value="-" class="minus">
-                            <input type="number" step="1" min="0" max="" id="1" name="quantity" value="0" title="Qty"
-                                class="input-text qty text" size="4" pattern="" inputmode="">
-                            <input type="button" value="+" class="plus">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/bife.jpg" alt="" class="card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title">Bife com batata</h5>
+                            <p class="card-text">R$ 30,00</p>
+                            <!-- Quantity JS-->
+                            <div>
+                                <input type="button" value="-" class="minus">
+                                <input type="number" step="1" min="0" max="" id="1" name="quantity" value="0" title="Qty"
+                                    class="input-text qty text" size="4" pattern="" inputmode="">
+                                <input type="button" value="+" class="plus">
+                            </div>
                         </div>
                     </div>
 
 
-                    <div>
-                        <img src="../assets/coxa.jpg" alt="">
-                        <p>Coxa de frango Crocante</p>
-                        <p>R$ 25,00</p>
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/coxa.jpg" alt="" class="card-img-top" >
+                        <div class="card-body">
+                            <div>
+                                <h5 class="card-title">Coxa de frango Crocante</h5>
+                                <p class="card-text">R$ 25,00</p>
+                            </div>
 
-                        <!-- Quantity JS -->
-                        <div class="quantity buttons_added">
-                            <input type="button" value="-" class="minus">
-                            <input type="number" step="1" min="0" max="" id="2" name="quantity" value="0" title="Qty"
+                            <!-- Quantity JS -->
+                            <div class="quantity buttons_added">
+                                <input type="button" value="-" class="minus">
+                                <input type="number" step="1" min="0" max="" id="2" name="quantity" value="0" title="Qty"
                                 class="input-text qty text" size="4" pattern="" inputmode="">
-                            <input type="button" value="+" class="plus">
+                                <input type="button" value="+" class="plus">
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <img src="../assets/panela.jpg" alt="">
-                        <p>Carne de Panela</p>
-                        <p>R$ 22,00</p>
 
-                        <!-- Quantity JS -->
-                        <div class="quantity buttons_added">
-                            <input type="button" value="-" class="minus">
-                            <input type="number" step="1" min="0" max="" id="3" name="quantity" value="0" title="Qty"
-                                class="input-text qty text" size="4" pattern="" inputmode="">
-                            <input type="button" value="+" class="plus">
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/panela.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Carne de Panela</h5>
+                            <p class="card-text">R$ 22,00</p>
+
+                            <!-- Quantity JS -->
+                            <div class="quantity buttons_added">
+                                <input type="button" value="-" class="minus">
+                                <input type="number" step="1" min="0" max="" id="3" name="quantity" value="0" title="Qty"
+                                    class="input-text qty text" size="4" pattern="" inputmode="">
+                                <input type="button" value="+" class="plus">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -72,44 +81,54 @@
                 <h2>Acompanhamentos</h2>
                 <p>Porções para uma pessoa</p>
                 <div>
-                    <div>
-                        <img src="../assets/farofa.jpg" alt="">
-                        <p>Farofa</p>
-                        <p>R$ 10,00</p>
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/farofa.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Farofa</h5>
+                            <p class="card-text">R$ 10,00</p>
 
-                        <!-- Quantity JS -->
-                        <div class="quantity buttons_added">
-                            <input type="button" value="-" class="minus">
-                            <input type="number" step="1" min="0" max="" id="4" name="quantity" value="0" title="Qty"
-                                class="input-text qty text" size="4" pattern="" inputmode="">
-                            <input type="button" value="+" class="plus">
+                            <!-- Quantity JS -->
+                            <div class="quantity buttons_added">
+                                <input type="button" value="-" class="minus">
+                                <input type="number" step="1" min="0" max="" id="4" name="quantity" value="0" title="Qty"
+                                    class="input-text qty text" size="4" pattern="" inputmode="">
+                                <input type="button" value="+" class="plus">
+                            </div>
                         </div>
                     </div>
-                    <div>
-                        <img src="../assets/salad.jpg" alt="">
-                        <p>Salada</p>
-                        <p>R$ 8,00</p>
 
-                        <!-- Quantity JS -->
-                        <div class="quantity buttons_added">
-                            <input type="button" value="-" class="minus">
-                            <input type="number" step="1" min="0" max="" id="5" name="quantity" value="0" title="Qty"
-                                class="input-text qty text" size="4" pattern="" inputmode="">
-                            <input type="button" value="+" class="plus">
+                    <div class="card" class="card" style="width: 18rem;">
+                        <img src="../assets/salad.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Salada</h5>
+                            <p class="card-text">R$ 8,00</p>
+
+                            <!-- Quantity JS -->
+                            <div class="quantity buttons_added">
+                                <input type="button" value="-" class="minus">
+                                <input type="number" step="1" min="0" max="" id="5" name="quantity" value="0" title="Qty"
+                                    class="input-text qty text" size="4" pattern="" inputmode="">
+                                <input type="button" value="+" class="plus">
+                            </div>
                         </div>
+
                     </div>
-                    <div>
-                        <img src="../assets/torresmo.jpg" alt="">
-                        <p>Torresmo</p>
-                        <p>R$ 12,00</p>
 
-                        <!-- Quantity JS  -->
-                        <div class="quantity buttons_added">
-                            <input type="button" value="-" class="minus">
-                            <input type="number" step="1" min="0" max="" id="6" name="quantity" value="0" title="Qty"
-                                class="input-text qty text" size="4" pattern="" inputmode="">
-                            <input type="button" value="+" class="plus">
+                    <div class="card" class="card" style="width: 18rem;">
+                        <img src="../assets/torresmo.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Torresmo</h5>
+                            <p class="card-text">R$ 12,00</p>
+
+                            <!-- Quantity JS  -->
+                            <div class="quantity buttons_added">
+                                <input type="button" value="-" class="minus">
+                                <input type="number" step="1" min="0" max="" id="6" name="quantity" value="0" title="Qty"
+                                    class="input-text qty text" size="4" pattern="" inputmode="">
+                                <input type="button" value="+" class="plus">
+                            </div>
                         </div>
+
                     </div>
                 </div>
 
