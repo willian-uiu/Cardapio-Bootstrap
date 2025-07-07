@@ -133,15 +133,33 @@
                 </div>
 
             </div>
-            <div>
-                <h2>Dados Pessoais</h2>
-                <input type="text" placeholder="Nome" id="nome">
-                <input type="text" id="phone" placeholder="Numero para contato: ">
-                <input type="email" name="email" id="email" placeholder="Email para contato:">
-            </div>
-            <button onclick="calc()">Calcular</button>
-            <div id="output" >
-            </div>
+            <form action="">
+                <div class="mb-3">
+                    <h2>Dados Pessoais</h2>
+                    <div class="mb-3">
+                        <label for="nome">Nome</label>
+                        <input type="text" placeholder="Nome" id="nome" class="form-control" aria-describedby="nome">
+                        <div id="descricaonome" class="form-text">Digite o seu nome completo.</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="phone">Telefone</label>
+                        <input type="text" id="phone" placeholder="Numero para contato: " class="form-control" aria-describedby="phone">
+                        <div id="descricaotelefone" class="form-text">Digite apenas números.</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Email para contato:" class="form-control" aria-describedby="email">
+                        <div id="descricaoemail" class="form-text">Digite seu email.</div>
+                    </div>
+
+                </div>
+                <button onclick="calc()">Calcular</button>
+            </form>
+
+                <div id="output" >
+                </div>
         </div>
 
 
