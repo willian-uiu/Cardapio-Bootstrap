@@ -155,11 +155,33 @@
                     </div>
 
                 </div>
-                <button onclick="calc()" class="btn btn-success">Calcular</button>
+                <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="calc()" class="btn btn-success">
+                    Calcular
+                </button>
             </form>
 
-                <div id="output" >
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Pedido anotado!</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="output" >
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Quero corrigir</button>
+                        <button type="button" class="btn btn-success">Prosseguir para pagamento</button>
+                    </div>
+                    </div>
                 </div>
+            </div>
+
         </div>
 
 
